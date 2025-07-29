@@ -62,14 +62,17 @@ Este projeto contém um script Python para gerar a programação de culto em for
 ## Exemplo de entrada `input.txt`
 
 ```
-DATA: 29/07/2025
 BOAS_VINDAS: Pr. Elenildo
 DIRIGENTE: Ir. Carlos
 PRELUDIO: Minis. de Louvor
-MOMENTO_INTERCESSAO: Momento de oração pelos irmãos
+MOMENTO_INTERCESSAO: Dc. Eduardo
 OPORTUNIDADES: Ir. Lucas, JUBASCC, Dcª. Conceição
-DIZIMOS: Dc. Manoel
-MENSAGEM_BIBLICA: Tema: A fé que salva
+DIZIMOS: Dc. João
+MENSAGEM_BIBLICA:
+
+CANTOR_CRISTAO: 123 - Bendito Cordeiro
+
+MUSICAS: Música Brasileira 1, Música Brasileira 2, Música Brasileira 3,Música Brasileira 4, Música Brasileira 5
 
 VERSICULOS:
 Livro: Salmos
