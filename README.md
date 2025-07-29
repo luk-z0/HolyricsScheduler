@@ -7,6 +7,10 @@ Este projeto contém um script Python para gerar a programação de culto em for
 ## Requisitos
 
 * Python 3.6 ou superior
+  ```bash
+  sudo apt update
+  sudo apt install python3.6
+  ```
 
 * Biblioteca `requests` instalada
   Para instalar, rode no terminal:
@@ -21,8 +25,8 @@ Este projeto contém um script Python para gerar a programação de culto em for
 
 ## Arquivos
 
-* `script_to_generate_schedule.py`: Script Python principal que lê o `input.txt`, busca versículos na API e gera o arquivo `programacao_culto.txt`.
-* `rodar_programacao.sh`: Script Bash para rodar o script Python facilmente.
+* `script_to_generate_schedule.py`: Script Python principal que lê o `input.txt`, busca versículos na API e gera o arquivo `generated_schedule.txt`.
+* `start.sh`: Script Bash para rodar o script Python facilmente.
 * `input.txt`: Arquivo de entrada que deve conter os dados do culto.
 
 ---
