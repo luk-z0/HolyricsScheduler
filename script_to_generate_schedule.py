@@ -172,7 +172,7 @@ def main():
     program_output_path = "generated_schedule.txt"
 
     try:
-        metadata, songs, book, chapter, verse_entries = read_input_file(input_path)
+        metadata, book, chapter, verse_entries = read_input_file(input_path)
     except Exception as e:
         print(f"Error reading input file: {e}")
         return
