@@ -85,7 +85,7 @@ Data: @dia/mês/ano
 Boas Vindas: Pr. Elenildo
 Dirigente: Ir. Carlos
 Prelúdio: Minis. de Louvor
-//Música Brasileira 1 ¹
+//Música Brasileira 1
 Leitura Bíblica Alternada
 
 Leitura Bíblica Alternada
@@ -105,6 +105,9 @@ Igreja:
 
 Todos: Todos:
 26. Dai graças ao Deus dos céus, porque a sua benignidade dura para sempre.
+
+Cantor Cristão
+N° - 123 - Bendito Cordeiro
 
 Momento de Intercessão
 Dc. Eduardo

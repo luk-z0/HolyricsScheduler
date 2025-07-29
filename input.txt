@@ -6,6 +6,8 @@ OPORTUNIDADES: Ir. Lucas, JUBASCC, Dcª. Conceição
 DIZIMOS: Dc. João
 MENSAGEM_BIBLICA:
 
+CANTOR_CRISTAO: 123 - Bendito Cordeiro
+
 MUSICAS: Música Brasileira 1, Música Brasileira 2, Música Brasileira 3,Música Brasileira 4, Música Brasileira 5
 
 VERSICULOS:

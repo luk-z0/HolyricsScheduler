@@ -12,6 +12,7 @@ def parse_metadata(lines):
         "deacon": "",
         "biblical_message": "",
         "musics": [],
+        "hymnal": [],
     }
     for line in lines:
         if line.startswith("DATA:"):
@@ -38,6 +39,9 @@ def parse_metadata(lines):
         elif line.startswith("MUSICAS:"):
             ops_str = line.split("MUSICAS:", 1)[1].strip()
             metadata["musics"] = [op.strip() for op in ops_str.split(",") if op.strip()]
+        elif line.startswith("CANTOR_CRISTAO:"):
+            ops_str = line.split("CANTOR_CRISTAO:", 1)[1].strip()
+            metadata["hymnal"] = [op.strip() for op in ops_str.split("-") if op.strip()]
     return metadata
 
 
@@ -48,6 +52,7 @@ def read_input_file(file_path):
     metadata_lines = []
     music_lines = []
     verses_lines = []
+    hymnal_line = []
 
     section = "metadata"
     for line in lines:
@@ -58,12 +63,17 @@ def read_input_file(file_path):
         elif stripped == "VERSICULOS:":
             section = "verses"
             continue
+        elif stripped == "CANTOR_CRISTAO":
+            section = "hymnal"
+
         if section == "metadata":
             metadata_lines.append(stripped)
         elif section == "musics":
             music_lines.append(stripped)
         elif section == "verses":
             verses_lines.append(stripped)
+        elif section == "hymnal":
+            hymnal_line.append(stripped)
 
     metadata = parse_metadata(metadata_lines)
 
@@ -139,6 +149,9 @@ Leitura Bíblica Alternada
 
 {leitura_alternada_text}
 
+Cantor Cristão
+N° - {metadata["hymnal"][0]} - {metadata["hymnal"][1]}
+
 Momento de Intercessão
 {metadata["intercession_moment"]}
 
@@ -172,7 +185,7 @@ def main():
     program_output_path = "generated_schedule.txt"
 
     try:
-        metadata, book, chapter, verse_entries = read_input_file(input_path)
+        metadata, songs, book, chapter, verse_entries = read_input_file(input_path)
     except Exception as e:
         print(f"Error reading input file: {e}")
         return
