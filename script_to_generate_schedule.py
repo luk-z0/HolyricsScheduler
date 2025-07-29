@@ -11,6 +11,7 @@ def parse_metadata(lines):
         "opportunities": [],
         "deacon": "",
         "biblical_message": "",
+        "musics": [],
     }
     for line in lines:
         if line.startswith("DATA:"):
@@ -34,6 +35,9 @@ def parse_metadata(lines):
             metadata["deacon"] = line.split("DIZIMOS:", 1)[1].strip()
         elif line.startswith("MENSAGEM_BIBLICA:"):
             metadata["biblical_message"] = line.split("MENSAGEM_BIBLICA:", 1)[1].strip()
+        elif line.startswith("MUSICAS:"):
+            ops_str = line.split("MUSICAS:", 1)[1].strip()
+            metadata["musics"] = [op.strip() for op in ops_str.split(",") if op.strip()]
     return metadata
 
 
@@ -54,7 +58,6 @@ def read_input_file(file_path):
         elif stripped == "VERSICULOS:":
             section = "verses"
             continue
-
         if section == "metadata":
             metadata_lines.append(stripped)
         elif section == "musics":
@@ -128,6 +131,7 @@ Data: @dia/mês/ano
 Boas Vindas: {metadata["welcome_pastor"]}
 Dirigente: {metadata["dirigente"]}
 Prelúdio: {metadata["prelude"]}
+//{metadata["musics"][0]}
 Leitura Bíblica Alternada
 
 Leitura Bíblica Alternada
@@ -145,6 +149,12 @@ Dízimos e Ofertas
 {metadata["deacon"]}
 
 Momento de Louvor
+"""
+
+    for music in metadata["musics"][1:]:
+        program_text += f"//{music}\n"
+
+    program_text += f"""
 
 Mensagem Bíblica
 {metadata["biblical_message"] if metadata["biblical_message"] else ""}

@@ -85,6 +85,7 @@ Data: @dia/mês/ano
 Boas Vindas: Pr. Elenildo
 Dirigente: Ir. Carlos
 Prelúdio: Minis. de Louvor
+//Música Brasileira 1 ¹
 Leitura Bíblica Alternada
 
 Leitura Bíblica Alternada
@@ -117,6 +118,11 @@ Dízimos e Ofertas
 Dc. João
 
 Momento de Louvor
+//Música Brasileira 2
+//Música Brasileira 3
+//Música Brasileira 4
+//Música Brasileira 5
+
 
 Mensagem Bíblica
 
@@ -125,6 +131,8 @@ Considerações Finais
 
 Avisos
 ```
+¹ : o `//` no Holyrics representa um comentário, não exibira no texto do público.
+
 ### Importe no Holyrics 
 
 ```
