@@ -1,9 +1,9 @@
 BOAS_VINDAS: Pr. Elenildo
-DIRIGENTE: Ir. Carlos
+DIRIGENTE: Dc. Iranildo
 PRELUDIO: Minis. de Louvor
-MOMENTO_INTERCESSAO: Dc. Eduardo
-OPORTUNIDADES: Ir. Lucas, JUBASCC, Dcª. Conceição
-DIZIMOS: Dc. João
+MOMENTO_INTERCESSAO: Irª. Rita
+OPORTUNIDADE: Semeando Louvores
+DIZIMOS: Dc. José Mariano
 MENSAGEM_BIBLICA:
 
 CANTOR_CRISTAO: 123 - Bendito Cordeiro
@@ -11,11 +11,11 @@ CANTOR_CRISTAO: 123 - Bendito Cordeiro
 MUSICAS: Música Brasileira 1, Música Brasileira 2, Música Brasileira 3,Música Brasileira 4, Música Brasileira 5
 
 VERSICULOS:
-Livro: Salmos
-Capitulo: 136
+Livro: 1João
+Capitulo: 5
 
 Dirigente:1
 Igreja:2
 Dirigente:3
 Igreja:4
-Todos:26
+Todos:5
