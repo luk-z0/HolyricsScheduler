@@ -3,7 +3,7 @@ DIRIGENTE: Dc. Iranildo
 PRELUDIO: Minis. de Louvor
 MOMENTO_INTERCESSAO: Irª. Rita
 OPORTUNIDADE: Semeando Louvores
-DIZIMOS: Dc. José Mariano
+DIZIMOS: Dc. Eduardo
 MENSAGEM_BIBLICA:
 
 CANTOR_CRISTAO: 123 - Bendito Cordeiro
@@ -11,11 +11,12 @@ CANTOR_CRISTAO: 123 - Bendito Cordeiro
 MUSICAS: Música Brasileira 1, Música Brasileira 2, Música Brasileira 3,Música Brasileira 4, Música Brasileira 5
 
 VERSICULOS:
-Livro: 1João
-Capitulo: 5
+Livro: Efésios
+Capitulo: 4
 
-Dirigente:1
-Igreja:2
-Dirigente:3
-Igreja:4
-Todos:5
+Dirigente:19
+Igreja:20
+Dirigente:21
+Igreja:22
+Dirigente:23
+Todos:24
