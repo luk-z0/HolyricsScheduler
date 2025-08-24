@@ -6,7 +6,7 @@ OPORTUNIDADE: Semeando Louvores
 DIZIMOS: Dc. Eduardo
 MENSAGEM_BIBLICA:
 
-CANTOR_CRISTAO: 123 - Bendito Cordeiro
+CANTOR_CRISTAO: 462 - Unidos
 
 MUSICAS: Música Brasileira 1, Música Brasileira 2, Música Brasileira 3,Música Brasileira 4, Música Brasileira 5
 
