@@ -1,22 +1,24 @@
 BOAS_VINDAS: Pr. Elenildo
-DIRIGENTE: Dc. Iranildo
+DIRIGENTE: Dc. Eduardo 
 PRELUDIO: Minis. de Louvor
-MOMENTO_INTERCESSAO: Irª. Rita
+MOMENTO_INTERCESSAO: Ir. 
 OPORTUNIDADE: Semeando Louvores
-DIZIMOS: Dc. Eduardo
+DIZIMOS: Dc. José Mariano
 MENSAGEM_BIBLICA:
 
 CANTOR_CRISTAO: 462 - Unidos
 
-MUSICAS: Música Brasileira 1, Música Brasileira 2, Música Brasileira 3,Música Brasileira 4, Música Brasileira 5
+MUSICAS: Grande é o Senhor, Oferta de Amor,Celebrai a Cristo,Eu me Rendo, Apenas
 
 VERSICULOS:
-Livro: Efésios
-Capitulo: 4
+Livro: Romanos 
+Capitulo: 5
 
-Dirigente:19
-Igreja:20
-Dirigente:21
-Igreja:22
-Dirigente:23
-Todos:24
+Dirigente:1
+Igreja:2
+Dirigente:3
+Igreja:4
+Dirigente:5
+Igreja:6
+Dirigente:7
+Todos:8
