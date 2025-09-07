@@ -1,24 +1,18 @@
-BOAS_VINDAS: Pr. Elenildo
-DIRIGENTE: Dc. Eduardo 
-PRELUDIO: Minis. de Louvor
-MOMENTO_INTERCESSAO: Ir. 
-OPORTUNIDADE: Semeando Louvores
-DIZIMOS: Dc. José Mariano
-MENSAGEM_BIBLICA:
+BOAS_VINDAS: Dc. Eduardo
+ªDIRIGENTE: Irª. Maynhenyff
+PRELUDIO: JUBASCC
+MOMENTO_INTERCESSAO: Irª. Raquel 
+OPORTUNIDADE: SMHB, MCM, Teatro JUBASCC
+DIZIMOS: Dc. Eduardo
+MENSAGEM_BIBLICA:Dc. Maciael Marcos
 
-CANTOR_CRISTAO: 462 - Unidos
+CANTOR_CRISTAO: 123 - Bendito Cordeiro
 
 MUSICAS: Grande é o Senhor, Oferta de Amor,Celebrai a Cristo,Eu me Rendo, Apenas
 
 VERSICULOS:
-Livro: Romanos 
-Capitulo: 5
+Livro: Colossenses 
+Capitulo: 2
 
-Dirigente:1
-Igreja:2
-Dirigente:3
-Igreja:4
-Dirigente:5
-Igreja:6
-Dirigente:7
-Todos:8
+Dirigente:9
+Todos:10
