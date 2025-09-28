@@ -1,18 +1,20 @@
-BOAS_VINDAS: Dc. Eduardo
-ªDIRIGENTE: Irª. Maynhenyff
-PRELUDIO: JUBASCC
-MOMENTO_INTERCESSAO: Irª. Raquel 
-OPORTUNIDADE: SMHB, MCM, Teatro JUBASCC
-DIZIMOS: Dc. Eduardo
-MENSAGEM_BIBLICA:Dc. Maciael Marcos
+BOAS_VINDAS: Dc. Maciael
+DIRIGENTE: Dcª. Valquíria 
+PRELUDIO: Minis. De Louvor
+MOMENTO_INTERCESSAO: Irª. Camila
+OPORTUNIDADE: Ir. Danilo, MCM
+DIZIMOS: Dc. Fernando
+MENSAGEM_BIBLICA: 
 
 CANTOR_CRISTAO: 123 - Bendito Cordeiro
 
-MUSICAS: Grande é o Senhor, Oferta de Amor,Celebrai a Cristo,Eu me Rendo, Apenas
+MUSICAS: Te agradeço,Grande é o Senhor, Eu vejo a glória, Poderoso Deus
 
 VERSICULOS:
-Livro: Colossenses 
-Capitulo: 2
+Livro: Mateus 
+Capitulo: 16
 
-Dirigente:9
-Todos:10
+Dirigente:13
+Igreja:14
+Dirigente:15
+Todos:16
